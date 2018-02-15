@@ -31,7 +31,7 @@ public class WelcomeController {
 	public String index(final Map<String, Object> model) {
 
 		LOGGER.debug("index() is executed!");
-
+		LOGGER.debug("index() is executed! 2");
 		model.put("title", helloWorldService.getTitle(""));
 		model.put("msg", helloWorldService.getDesc());
 		
